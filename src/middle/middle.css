@@ -1,0 +1,15 @@
+.middle {
+   display:flex;
+   flex-direction: row;
+    width: 100%;
+
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.categories {
+    border: 1px solid black;
+
+    width: 30%;
+    padding: 2%;
+}
