@@ -1,12 +1,21 @@
+
+.middleBack {
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+    margin: 9% 0 15% 0;
+    box-shadow: 20px 2px 15px black;
+}
 .middle {
    display:flex;
    flex-direction: row;
     width: 100%;
-    padding: 2%;
-    margin-top: 10%;
+    padding: 7%;
     font-family: Bona Nova;
     background-color: black;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 88%);
     color:white;
+    margin-bottom: 5%;
 }
 
 .middle img {
@@ -20,6 +29,12 @@
 }
 
 .button {
-    background-color: white;
+    background-color: teal;
     color:black;
+}
+
+.bee {
+    margin-left: -85%;
+    margin-top: -24%;
+    margin-bottom: 20%;
 }

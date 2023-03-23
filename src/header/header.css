@@ -35,12 +35,12 @@ img {
     opacity: 1.0;
 }
 .headerTwo {
-     width:45%;
+     width:50%;
      display:flex;
-     justify-content: space-evenly;
+     justify-content: space-between;
 }
 
-.bee {
+.headerBee {
     margin-top: -1%;
     margin-left: -27%;
 }
@@ -53,6 +53,6 @@ input {
 button {
     padding: 2%;
     width: 32%;
-    background-color: black;
+    background-color: teal;
     color:white;
 }
