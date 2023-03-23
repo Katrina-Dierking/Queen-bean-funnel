@@ -6,6 +6,8 @@ header {
     margin-bottom: 2%;
     background-color: yellow;
     box-shadow: 10px 10px 15px black;
+    font-family: Bona Nova;
+    font-size: 24px;
 }
 
 img {
@@ -19,13 +21,27 @@ img {
 }
 
 .headerOne {
-    width: 40%;
+    width: 37%;
 }
 
+.coffee {
+    margin-top:-3%;
+    margin-left: -100%;
+    opacity: 0.2;
+}
+
+.coffee:hover {
+    opacity: 1.0;
+}
 .headerTwo {
-     width:30%;
+     width:45%;
      display:flex;
-     justify-content: space-around;
+     justify-content: space-evenly;
+}
+
+.bee {
+    margin-top: -1%;
+    margin-left: -27%;
 }
 
 input {
@@ -35,7 +51,7 @@ input {
 
 button {
     padding: 2%;
-    width: 30%;
+    width: 32%;
     background-color: black;
     color:white;
 }
