@@ -4,6 +4,7 @@ import './app.css'
 import Header from './header/Header';
 import Middle from './middle/Middle';
 import Bee from './lotties/Bee';
+import Footer from './footer/Footer';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Bee />
       <Main />
       <Middle />
+      <Footer />
     </section>
   );
 }
