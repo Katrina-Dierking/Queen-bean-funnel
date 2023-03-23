@@ -1,6 +1,41 @@
 header {
     width: 100%;
-    height: 15%;
+    display:flex;
+    justify-content: space-between;
+    padding:  1% 2%;
+    margin-bottom: 2%;
     background-color: yellow;
-    border-bottom: 3px solid black;
+    box-shadow: 10px 10px 15px black;
+}
+
+img {
+    height: 100px;
+    padding-right: 2%;
+}
+
+.headerOne, .headerTwo {
+    display:flex;
+    flex-direction: row;
+}
+
+.headerOne {
+    width: 40%;
+}
+
+.headerTwo {
+     width:30%;
+     display:flex;
+     justify-content: space-around;
+}
+
+input {
+    width: 60%;
+    padding: 2%;
+}
+
+button {
+    padding: 2%;
+    width: 30%;
+    background-color: black;
+    color:white;
 }
