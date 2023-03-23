@@ -1,0 +1,17 @@
+import React from 'react'
+import './bottom.css'
+
+function Bottom() {
+  return (
+    <>
+    <section className="bottom">
+      <h3>
+        Designing the family, life, and/or business you've always wanted is closer than you think. 
+      </h3>
+      <button className="button bot"> - SCHEDULE A DISCOVERY CALL TODAY</button>
+      </section>
+    </>
+  );
+}
+
+export default Bottom
