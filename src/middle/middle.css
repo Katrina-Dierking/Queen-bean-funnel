@@ -18,6 +18,10 @@
     margin-bottom: 5%;
 }
 
+h2 {
+     text-shadow: 1px 1px 4px slategrey;
+}
+
 .middle img {
     width: 250px;
     height: 150px;
@@ -26,11 +30,17 @@
 
     width: 30%;
     padding: 2%;
+    border: 5px solid teal;
+       border-style: inset;
 }
 
+
+
+
 .button {
-    background-color: teal;
+    background-color: #1087A8;
     color:black;
+    width: 50%;
 }
 
 .bee {
@@ -38,3 +48,4 @@
     margin-top: -24%;
     margin-bottom: 20%;
 }
+
