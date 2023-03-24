@@ -14,7 +14,6 @@ function App() {
     <section>
       <Header />
       <Bee />
-      <Main />
       <Middle />
       <Bottom />
       <Footer />

@@ -1,25 +1,41 @@
 
 .middleBack {
-    background-color: yellow;
+    background-color: #ffff00;
     display:flex;
     flex-direction: column;
     margin: 9% 0 15% 0;
     box-shadow: 20px 2px 15px black;
 }
+
+.hive {
+    height: 100px;
+    width: 350px;
+
+
+}
 .middle {
    display:flex;
    flex-direction: row;
     width: 100%;
+    height: 100%;
     padding: 7%;
     font-family: Bona Nova;
     background-color: black;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 88%);
     color:white;
     margin-bottom: 5%;
+
 }
 
 h2 {
      text-shadow: 1px 1px 4px slategrey;
+}
+
+h4 {
+    color:black;
+font-family: 'Water Brush', cursive;    
+font-size: 48px;
+font-weight: 300;
 }
 
 .middle img {
@@ -30,7 +46,7 @@ h2 {
 
     width: 30%;
     padding: 2%;
-    border: 5px solid teal;
+    border: 5px solid #1087A8;
        border-style: inset;
 }
 

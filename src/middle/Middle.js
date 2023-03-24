@@ -6,13 +6,13 @@ import homeschooler from './homeschooler.jpg'
 import bee from "./bee.png";
 
 
+
 function Middle() {
 
   
   return (
     <>
       <section className="middleBack">
-
         <section className="middle">
           <section className=" categories leftMiddle">
             <img src={crafter} alt="crafter" />
