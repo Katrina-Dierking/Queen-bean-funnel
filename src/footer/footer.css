@@ -1,6 +1,31 @@
 footer {
     width: 100%;
-    text-align:center;
+    text-align:left;
     background-color:black;
     color:white;
+    
+}
+.mainFoot {
+    display:flex;
+    flex-direction: row;
+    width: 40%;
+    margin:auto;
+
+
+}
+
+.leftFoot, .rightFoot {
+    width: 35%;
+    align-items: left;
+    border: 1px solid white;
+    margin-top: 5%;
+}
+.leftFoot a, .rightFoot a {
+    text-decoration: none;
+    color:white;
+
+}
+
+ul {
+    list-style-type: none;
 }
