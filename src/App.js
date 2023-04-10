@@ -1,18 +1,19 @@
 
-import Main from './main/Main';
 import './app.css'
-import Header from './header/Header';
-import Middle from './middle/Middle';
+
+import Middle from './components/middle/Middle';
 import Bee from './lotties/Bee';
-import Footer from './footer/Footer';
-import Bottom from './bottom/Bottom';
+
+import Bottom from './components/bottom/Bottom';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 
 
 function App() {
   return (
     <section>
-      <Header />
+      <Header/>
       <Bee />
       <Middle />
       <Bottom />

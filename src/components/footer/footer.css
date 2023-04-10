@@ -17,15 +17,27 @@ footer {
 .leftFoot, .rightFoot {
     width: 35%;
     align-items: left;
-    border: 1px solid white;
     margin-top: 5%;
+
 }
-.leftFoot a, .rightFoot a {
+.rightFoot a {
     text-decoration: none;
     color:white;
 
-}
 
+}
+.rightFoot a:hover {
+    color:teal;
+}
+.leftFoot img{
+    width: 50px;
+    height: 30px;
+    padding-right: 15%;
+}
 ul {
     list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 250px;
 }

@@ -1,5 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './footer.css'
+import facebook from '../../images/facebook.png'
+import pinterest from '../../images/pinterest.png'
+import youtube from '../../images/youtube.png'
 
 function Footer() {
   return (
@@ -7,17 +11,11 @@ function Footer() {
       <section className="mainFoot">
         <section className="leftFoot">
           <nav>
-            <ul>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Connect</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
+            
+              <img src={facebook} alt="facebook" />
+              <img src={pinterest} alt="pinterest" />
+              <img src={youtube} alt="youtube" />
+            
           </nav>
         </section>
 
@@ -25,13 +23,11 @@ function Footer() {
           <nav>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="#">ABOUT</a>
               </li>
+          
               <li>
-                <a href="#">Connect</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+               <a href="#">CONTACT</a>
               </li>
             </ul>
           </nav>
