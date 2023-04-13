@@ -1,0 +1,20 @@
+@mixin textShadow {
+    text-shadow: 3px 2px 5px slategrey;
+}
+
+@mixin boxShadow {
+        box-shadow: 10px 10px 15px #000;
+}
+
+@mixin displayRow {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin displayCol {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;
+}
