@@ -1,7 +1,6 @@
 import React from 'react'
-import './main.css'
+import './main.scss'
 import headshot from '../myHeadshot.png'
-import laptop from '../images/laptop.png'
 
 function Main() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import './header.css'
-import bee from '../../images/bee.png'
-import logo from '../../images/QueenBeanLogo.png'
+import './header.scss'
+import bee from '../../assets/images/bee.png'
+import logo from '../../assets/images/QueenBeanLogo.png'
 
 function Header() {
   return (

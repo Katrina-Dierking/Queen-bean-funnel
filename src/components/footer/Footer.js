@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import './footer.css'
-import facebook from '../../images/facebook.png'
-import pinterest from '../../images/pinterest.png'
-import youtube from '../../images/youtube.png'
+import './footer.scss'
+import facebook from '../../assets/images/facebook.png'
+import pinterest from '../../assets/images/pinterest.png'
+import youtube from '../../assets/images/youtube.png'
 
 function Footer() {
   return (
