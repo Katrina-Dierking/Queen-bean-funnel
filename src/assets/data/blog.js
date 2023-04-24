@@ -4,6 +4,7 @@ export const blogs = [
         id: 1, 
         title: 'What is Modeling Chocolate?',
         description: 'Learning to make modeling chocolate', 
+        categories:['baking', 'DIY', 'crafts', 'learning something new'],
         img:'',
         body: [
             {
