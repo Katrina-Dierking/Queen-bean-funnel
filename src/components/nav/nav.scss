@@ -1,25 +1,19 @@
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
 .nav {
-    display:flex;
-    flex-direction: row;
+
+    @include displayRow();
     justify-content: space-around;
-    align-items: center;
-    background-color: lightgrey;
+    @include boxShadowOne();
+    background-color: $cta;
     margin: 1% 0;
     padding:1%;
     width: 80%;
     a {
-        text-decoration: none;
-        color:black;
-        size: 16px;
-
-        
+        @include a()
     }
     a:hover {
-    size: 22px;
-    background-color: black;
-    border-radius:10%;
-    color:white;
-    font-weight: bold;
-    padding: 1%;
+        @include aHover();
     }
 }

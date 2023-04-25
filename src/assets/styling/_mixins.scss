@@ -1,9 +1,15 @@
+
+@import './variables';
+
 @mixin textShadow {
-    text-shadow: 3px 2px 5px slategrey;
+    text-shadow: 3px 2px 5px $darkShadow;
 }
 
-@mixin boxShadow {
-        box-shadow: 10px 10px 15px #000;
+@mixin boxShadowOne {
+        box-shadow: 10px 10px 15px $text;
+}
+@mixin boxShadowTwo {
+       box-shadow: 5px 5px 10px $shadow;
 }
 
 @mixin displayRow {
@@ -17,4 +23,19 @@
     flex-direction: column;
     justify-content:space-between;
     align-items: start;
+}
+
+@mixin a{
+    text-decoration: none;
+    color:$text;
+    size:16px;
+}
+
+@mixin aHover {
+    background-color: $primary;
+    color: $text;
+    size:22px;
+    border-radius: 10%;
+    font-weight: bold;
+    padding: 1%;
 }
