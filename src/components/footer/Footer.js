@@ -19,19 +19,7 @@ function Footer() {
           </nav>
         </section>
 
-        <section className="rightFoot">
-          <nav>
-            <ul>
-              <li>
-                <a href="#">ABOUT</a>
-              </li>
-          
-              <li>
-               <a href="#">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
+        
         </section>
         <section className='copyright'>
         

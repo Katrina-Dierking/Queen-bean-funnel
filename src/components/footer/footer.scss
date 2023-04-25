@@ -14,30 +14,15 @@ footer {
 
 }
 
-.leftFoot, .rightFoot {
+.leftFoot{
     width: 35%;
     align-items: left;
     margin-top: 5%;
 
 }
-.rightFoot a {
-    text-decoration: none;
-    color:white;
 
-
-}
-.rightFoot a:hover {
-    color:teal;
-}
 .leftFoot img{
     width: 50px;
     height: 30px;
     padding-right: 15%;
-}
-ul {
-    list-style-type: none;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 250px;
 }
