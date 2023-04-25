@@ -1,5 +1,5 @@
 import React from 'react'
-import './middle.css'
+import './middle.scss'
 import crafter from './crafter.jpg'
 import business from './business.jpg'
 import homeschooler from './homeschooler.jpg'

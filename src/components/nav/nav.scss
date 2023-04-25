@@ -5,7 +5,7 @@
 
     @include displayRow();
     justify-content: space-around;
-    @include boxShadowOne();
+    @include boxShadowTwo();
     background-color: $cta;
     margin: 1% 0;
     padding:1%;

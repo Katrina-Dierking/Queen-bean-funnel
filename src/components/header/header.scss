@@ -1,14 +1,16 @@
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
 header {
     width: 100%;
-    display:flex;
-    justify-content: space-between;
     padding:  1% 2%;
     margin-bottom: 2%;
-    background-color: #ffff00;
-    box-shadow: 10px 10px 15px black;
-    font-family: Bona Nova;
     font-size: 24px;
-    text-shadow: 3px 2px 5px slategrey;
+    background-color: $background;
+    @include fontFamilyBona();
+    @include displayRow();
+    @include boxShadowOne();
+    @include textShadow();
 }
 
 img {
@@ -17,8 +19,8 @@ img {
 }
 
 .headerOne, .headerTwo {
-    display:flex;
-    flex-direction: row;
+    @include simpleDisplayRow();
+
 }
 
 .headerOne {
@@ -36,24 +38,23 @@ img {
 }
 .headerTwo {
      width:50%;
-     display:flex;
+   @include simpleDisplayRow();
      justify-content: space-between;
 }
 
 .headerBee {
-    margin-top: -1%;
-    margin-left: -27%;
+    margin: -1% 0 0 -27%;
 }
 
 input {
     width: 60%;
-    padding: 2%;
+    @include padding2Per();
 }
 
 button {
-    padding: 2%;
     width: 32%;
-    background-color: #1087A8;
-    color:white;
-      font-family: Bona Nova;
+    background-color: $cta;
+    color:$text;
+    @include padding2Per();
+    @include fontFamilyBona();
 }

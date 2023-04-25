@@ -1,0 +1,71 @@
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
+
+.middleBack {
+    @include simpleDisplayCol();
+    margin: 9% 0 15% 0;
+    background-color: $background;
+    box-shadow: 20px 2px 15px $primary;
+}
+
+.hive {
+    height: 100px;
+    width: 350px;
+
+
+}
+.middle {
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 88%);
+    margin-bottom: 5%;
+    color:$text;
+    background-color: $primary;
+    @include simpleDisplayRow();
+    @include fontFamilyBona();
+
+}
+
+h2 {
+     text-shadow: 1px 1px 4px $secondaryBk;
+}
+
+h4 {
+    color:$primary;
+    font-family: 'Water Brush', cursive;    
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.middle img {
+    width: 250px;
+    height: 150px;
+}
+.categories {
+
+    width: 30%;
+    border: 5px solid $cta;
+    border-style: inset;
+    @include padding2Per();
+}
+
+
+
+
+.button {
+    background-color: $cta;
+    font-family: Bona Nova;
+    color:$primary;
+    width: 50%;
+}
+
+.bee {
+    margin-left: -85%;
+    margin-top: -24%;
+    margin-bottom: 20%;
+
+    // margin: -24% 0 -20% -85%;
+}
+

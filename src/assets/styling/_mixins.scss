@@ -2,20 +2,30 @@
 @import './variables';
 
 @mixin textShadow {
-    text-shadow: 3px 2px 5px $darkShadow;
+    text-shadow: 3px 2px 5px $secondaryBk;
 }
 
 @mixin boxShadowOne {
-        box-shadow: 10px 10px 15px $text;
+        box-shadow: 10px 10px 15px $darkShadow;
 }
 @mixin boxShadowTwo {
-       box-shadow: 5px 5px 10px $shadow;
+       box-shadow: 5px 5px 10px $primary;
 }
 
+@mixin simpleDisplayRow {
+    display:flex;
+    flex-direction: row;
+}
+
+@mixin simpleDisplayCol {
+    display:flex;
+    flex-direction: column;
+}
 @mixin displayRow {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 @mixin displayCol {
@@ -38,4 +48,12 @@
     border-radius: 10%;
     font-weight: bold;
     padding: 1%;
+}
+
+@mixin fontFamilyBona {
+      font-family: Bona Nova;
+}
+
+@mixin padding2Per{
+    padding:2%;
 }
