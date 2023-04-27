@@ -1,13 +1,16 @@
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
+
 footer {
     width: 100%;
     text-align:left;
-    background-color:black;
-    color:white;
+    background-color:$primary;
+    color:$text;
     
 }
 .mainFoot {
-    display:flex;
-    flex-direction: row;
+    @include simpleDisplayRow();
     width: 40%;
     margin:auto;
 
