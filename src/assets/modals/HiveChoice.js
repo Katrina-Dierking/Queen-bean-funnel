@@ -1,8 +1,8 @@
 import React from 'react'
 
-const HiveChoice = ({title, img, alt, para, text}) => {
+const HiveChoice = ({title, img, alt, para, extraText, text}) => {
   return (
-    <section className='hiveChoice'>'
+    <section className='hiveChoice'>
         <img src={img} alt = {alt}/>
         <h2>{title}</h2>
         <p>{para}</p>
