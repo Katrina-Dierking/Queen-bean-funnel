@@ -1,26 +1,27 @@
 
-import './app.css'
+import './app.scss'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import './views/home/Home'
+import Home from './views/home/Home';
+import About from './views/about/About';
+import Contact from './views/contact/Contact';
 
-import Middle from './components/middle/Middle';
-import Bee from './assets/lotties/Bee';
-
-import Bottom from './components/bottom/Bottom';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Nav from './components/nav/Nav';
 
 
 
 function App() {
   return (
-    <section>
-    <Nav />
-      <Header/>
-      <Bee />
-      <Middle />
-      <Bottom />
-      <Footer />
-    </section>
+   <section className='app'>
+   <BrowserRouter>
+     <Routes>
+       <Route exact path = "/" element={<Home />} />
+       <Route path="/about" element={<About />} />
+       <Route path="/contact" element={<Contact/>} />
+     </Routes>
+   </BrowserRouter>
+   </section>
+
+
   );
 }
 

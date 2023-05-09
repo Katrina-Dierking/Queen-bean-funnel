@@ -4,7 +4,7 @@ import crafter from './crafter.jpg'
 import business from './business.jpg'
 import homeschooler from './homeschooler.jpg'
 import bee from "./bee.png";
-import HiveChoice from '../../assets/modals/HiveChoice'
+import HiveChoice from '../../modals/HiveChoice'
 
 
 

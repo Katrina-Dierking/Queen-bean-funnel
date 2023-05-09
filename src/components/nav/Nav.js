@@ -5,9 +5,10 @@ import './nav.scss'
 function Nav() {
   return (
    <div className='nav'>
+   <Link to="/">HOME</Link>
         <a href to="/blog">BLOG</a>
-        <a href to="/about">ABOUT</a>
-        <a href to="/contact">CONTACT</a>
+        <Link to="/about">ABOUT</Link>
+        <Link to="/contact">CONTACT</Link>
    </div>
   )
 }

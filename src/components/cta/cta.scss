@@ -1,0 +1,36 @@
+
+.ctaContainer {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:whitesmoke;
+    margin-bottom:2%;
+    padding-bottom:2%;
+}
+.cta {
+    display:flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2%;
+    border:1px solid black;
+
+    button {
+        border-radius: 5%;
+        border: 1px solid slategrey;
+        color:black;
+        width: 35%;
+        margin-right:1%;
+    }
+}
+
+
+
+.codeBut{
+    background-color: lightgreen;
+}
+
+.collabBut {
+    background-color: pink;
+}
