@@ -1,0 +1,6 @@
+@import '../assets/styling/mixins';
+
+
+.hivebutton {
+    @include hiveButton();
+}
