@@ -8,10 +8,31 @@
         width: 55%;
         color:whitesmoke;
         padding: 2%;
-        text-align: center;
+        text-align: left;
     }
 
     span {
         color:yellow;
     }
 }
+
+ul li {
+    list-style:circle;
+}
+
+span{
+           font-weight: bold;
+    text-decoration: underline;
+}
+span.create {
+    color:teal;
+}
+
+span.code {
+    color:pink;
+}
+
+span.collab{
+    color:lightgreen;
+}
+
